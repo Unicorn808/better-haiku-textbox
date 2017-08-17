@@ -1,4 +1,4 @@
-var quill = new Quill('#cke_cms_box_body', {
+var quill = new Quill('#quilBox', {
   modules: {
     formula: true,
     syntax: true,
