@@ -1,4 +1,4 @@
-var quill = new Quill('#quilBox', {
+var quill = new Quill('#quillBox', {
   modules: {
     formula: true,
     syntax: true,
