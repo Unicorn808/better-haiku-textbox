@@ -9,5 +9,5 @@ var quill = new Quill('#quillBox', {
 });
 
 quill.on('text-change', function(delta, source) {
-  window.postMessage(quill.getText());
+  window.postMessage(quill.getText(), "*");
 });
